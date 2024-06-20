@@ -1,0 +1,54 @@
+/* Add this to your CSS stylesheet or style tag */
+
+.admission-request-block {
+  box-sizing: border-box;
+  width: calc(20% - 20px);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  font-size: 16px;
+  background-color: #f8f8f8;
+  margin-bottom: 30px;
+}
+
+.admission-request-block:hover {
+  transform: scale(1.05);
+}
+
+.admission-request-header {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.admission-request-body {
+  padding: 15px;
+}
+
+.admission-request-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-top: 1px solid #ddd;
+  border-radius: 0 0 10px 10px;
+}
+
+.btn-primary {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,30 @@
+/* Guidelines_hu.css */
+
+.body-hu {
+ 
+    
+    padding: 50px;
+    
+   
+  }
+  .pre{
+    resize: vertical;
+    font-size: large;
+  }
+  
+  
+  textarea {
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    resize: vertical;
+  }
+  @media (max-width: 600px) {
+    .keyboard-key {
+        flex-basis: calc(30% - 10px);
+    }
+}
+
+  /* Add any additional styles as needed */
+  

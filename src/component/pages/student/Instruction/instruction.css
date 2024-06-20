@@ -1,0 +1,98 @@
+/* @media (max-width: 768px) {
+  .list{
+    max-width:768px;
+  }
+  .fontSize{
+    font-size: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .fontSize{
+    font-size: 10px;
+  }
+  
+}
+
+@media (min-width: 1024px) {
+  
+  .fontSize{
+    font-size: 15px;
+  }
+} */
+
+.fontSize {
+  width: 100%;
+  overflow-x: auto;
+}
+
+@media (min-width: 768px) {
+  .fontSize {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .fontSize {
+    font-size: 18px;
+  }
+}
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.container{
+  overflow-x: auto;
+}
+
+/* .para{
+  width: 670px;
+  height: 28px;
+  margin: 30px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  
+} */
+.icon{
+  width: 25px;
+  height: 18.75px;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 5px;
+}
+.styleselect{
+  width: 1436px;
+  height: 54px;
+  border: 2px;
+  border-style:groove;
+  position: relative;
+}
+.button{
+  width: 242px;
+  height: 46px;
+border-radius: 20px;
+text-align: center;
+background-color: #0C356A;
+color: #ffffff;
+position: relative;
+margin-right: 40px;
+
+
+}
+.list{
+  display: flex;
+}
+.contentofuni{
+  width: 700px;
+  height: 1024px;
+  margin:20px;
+  
+}

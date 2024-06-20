@@ -1,0 +1,96 @@
+/* resetPassword.css */
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: hsl(0, 36%, 59%);
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles */
+.reset-password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Form Container Styles */
+.form-container {
+    max-width: 700px;
+    margin: 150px auto;
+    height: 80%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+/* Heading Styles */
+h2 {
+    text-align: center;
+    margin: 30px;
+    color: #333;
+}
+
+/* Form Styles */
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label Styles */
+.form label {
+    margin: 10px;
+    color: #251010;
+    font-size: large;
+}
+
+/* Input Styles */
+.form input {
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 18px; /* تكبير حجم الخط */
+}
+
+/* Password Input Styles */
+.password-input {
+    position: relative;
+}
+.code-input  {
+    position: relative;
+}
+.code-input input {
+    padding-right: 70px;
+}
+.password-input input {
+    padding-right: 40px;
+}
+
+/* Button Styles */
+.form button {
+    padding: 15px ; /* تكبير حجم الزرار */
+    background-color: #007bff;
+    color: #fff;
+   border: #fff;
+    margin-right:28%;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px; /* تكبير حجم الخط */
+    align-self: center; /* وسط الزرار داخل النموذج */
+}
+
+.form button:hover {
+    background-color: #1d9429;
+}
+
+/* Message Styles */
+.message {
+    text-align: center;
+    margin: 50px;
+    color: #888;
+}

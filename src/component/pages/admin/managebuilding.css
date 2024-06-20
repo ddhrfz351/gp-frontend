@@ -1,0 +1,107 @@
+/* buildingPage.css */
+
+/* Container for the page */
+.building-page-container {
+  display: flex;
+}
+
+/* Sidebar styles */
+/* buildingPage.css */
+
+/* Sidebar styles */
+.building-sidebar {
+  width: 200px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #ddd; /* Add right border for separation */
+  display: flex;
+  flex-direction: column; /* Display items vertically */
+}
+
+.building-sidebar h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color:white;
+  background-color: #0C356A;
+  
+}
+
+.buildings ul {
+  list-style: none;
+  padding: 0;
+}
+
+.buildings li {
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.buildings li:hover {
+  color: #FFB000;
+}
+
+
+/* Main content styles */
+.building-main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Selected building styles */
+.building-main-content h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #0C356A;
+}
+
+/* Room table styles */
+.building-main-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.building-main-content th,
+.building-main-content td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.building-main-content th {
+  background-color:#ddd;
+  color: #111018;
+}
+
+/* Specify the width for the columns */
+.building-main-content th:nth-child(1),
+.building-main-content td:nth-child(1) {
+  width: 40%;
+}
+
+.building-main-content th:nth-child(2),
+.building-main-content td:nth-child(2) {
+  width: 60%;
+}
+
+/* Selected room styles */
+.building-main-content h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #0C356A;
+}
+
+.building-main-content p {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #555;
+}
+@media (max-width: 600px) {
+  .keyboard-key {
+      flex-basis: calc(30% - 10px);
+  }
+}

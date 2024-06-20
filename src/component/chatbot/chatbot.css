@@ -1,0 +1,120 @@
+/* chatbot.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px; /* إضافة مسافة على الجوانب اليمين واليسار */
+}
+
+#chat-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px; /* لمساحة لوحة المفاتيح ومربع الإدخال */
+}
+
+#chat-messages {
+    flex-grow: 1;
+    overflow-y: auto; /* تمكين التمرير العمودي */
+    padding: 20px;
+    background-color: #f5f5f5;
+    max-height: calc(100vh - 160px); /* الارتفاع الأقصى لمكان عرض الرسائل */
+    transition: max-height 0.3s ease-in-out; /* تطبيق التأثير على تغيير max-height */
+}
+
+.message {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+#chat-container .user .message-content {
+    background-color: #3e82fc;
+    color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    max-width: 70%;
+    word-wrap: break-word;
+    margin-left: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#chat-container .bot .message-content {
+    background-color: #e0e0e0;
+    color: #333;
+    border-radius: 20px;
+    padding: 15px;
+    max-width: 70%;
+    word-wrap: break-word;
+    margin-right: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#user-input {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
+    padding: 10px;
+    border-top: 1px solid #eee;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#message-input {
+    width: calc(100% - 80px); /* تعديل عرض مربع الإدخال */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.bb {
+    width: 70px; /* تعديل عرض زر الإرسال */
+    background-color: #3e82fc;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bb:hover {
+    background-color: #2b63d8;
+}
+
+.keyboard-key {
+    background-color: #e0e0e0;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    flex-grow: 1;
+    flex-basis: calc(20% - 10px);
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.keyboard-key:hover {
+    background-color: #ccc;
+}
+
+@media (max-width: 600px) {
+    .keyboard-key {
+        flex-basis: calc(30% - 10px);
+    }
+}

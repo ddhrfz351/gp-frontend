@@ -1,0 +1,16 @@
+/* في ملف CSS أو مكون ستايل أخرى */
+
+.delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  @media (max-width: 600px) {
+    .keyboard-key {
+        flex-basis: calc(30% - 10px);
+    }
+}
+
+  

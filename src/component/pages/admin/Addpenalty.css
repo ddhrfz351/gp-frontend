@@ -1,0 +1,58 @@
+
+.first{
+  text-align: right;
+  justify-content: space-between;
+}
+.second{
+  text-align: right;
+  justify-content: space-between;
+}
+.third{
+  text-align: right;
+  justify-content: space-between;
+}
+.name{
+  font-size: 24px;
+}
+.input1{
+  width: 300px;
+  font-size: 20px;
+}
+.punish{
+  font-size: 24px;
+}
+.input2{
+  width: 300px;
+  font-size: 20px;
+
+}
+.reason{
+  font-size: 24px;
+}
+.input3{
+  width: 300px;
+  font-size: 20px;
+
+}
+.add{
+  font-size: 20px;
+  width: 140px;
+  border-radius: 12px;
+  background-color:#265073;
+  color: #ffff;
+}
+.close{
+  font-size: 20px;
+  width: 150px;
+  height: 40px;
+  background-color:#ffff;
+  border-radius: 10px;
+  border: 2px solid #265073;
+  margin-left: 75%;
+  margin-top: 20px;
+}
+@media (max-width: 600px) {
+  .keyboard-key {
+      flex-basis: calc(30% - 10px);
+  }
+}

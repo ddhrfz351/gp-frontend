@@ -1,0 +1,33 @@
+.adduni{
+  background-color: #0c356A;
+  color: #fff;
+  height: 34px;
+  width: 100%;
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.bar{
+  height: 34px;
+  background-color: #265073;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-right: 436px;
+}
+
+/*  */
+  
+  .sidebar a {
+    /* padding: 6px 8px 6px 16px; */
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #C07F00;
+  }

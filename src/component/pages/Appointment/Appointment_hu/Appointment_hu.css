@@ -1,0 +1,47 @@
+/* Updated CSS for Appointment_hu */
+.bar {
+    height: 34px;
+    background-color: #265073;
+}
+
+.sidebar {
+    width: 100px; /* Adjust the width as needed */
+    height: 100%;
+    float: left; /* Float the sidebar to the left */
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+
+.body-hu {
+   
+    overflow-y: auto; /* Add vertical scroll for the table */
+}
+
+.tableA {
+    width: 100%;
+    margin-top: 20px; /* Add margin to the table */
+    overflow: auto; /* Add scroll for the table */
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: right;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.edit-btn, .add-btn, .save-btn {
+    background-color: #265073;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+.adduni {
+    margin-bottom: 10px; /* Adjust margin as needed */
+}

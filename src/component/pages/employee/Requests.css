@@ -1,0 +1,52 @@
+/* Requests.css */
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.sidebar {
+  width: 335px;
+  height: 100vh;
+  position: inherit;
+  float: right;
+  
+  
+}
+
+.main-content {
+  margin-right: 436px;
+  margin-bottom: 90px;
+}
+
+.tableA {
+  width: 55rem;
+  border-radius: 5px;
+ 
+}
+
+.sidebar button {
+  display: block;
+  margin: 10px 0;
+  
+}
+
+
+.custom-columns {
+  column-count: 2;
+  column-gap: 20px;
+ 
+}
+
+.bold-label {
+  font-weight: bold;
+}
+@media (max-width: 600px) {
+  .keyboard-key {
+      flex-basis: calc(30% - 10px);
+  }
+}
+
+
+
